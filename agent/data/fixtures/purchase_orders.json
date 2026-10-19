@@ -1,0 +1,45 @@
+[
+  {
+    "po_id": "PO-2001",
+    "vendor_id": "VENDOR-42",
+    "vendor_name": "Acme Supplies Ltd.",
+    "issue_date": "2024-03-01",
+    "currency": "USD",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Widget A",
+        "quantity": 100,
+        "unit_price": 10.00,
+        "total": 1000.00
+      },
+      {
+        "line_no": 2,
+        "description": "Widget B",
+        "quantity": 50,
+        "unit_price": 20.00,
+        "total": 1000.00
+      }
+    ],
+    "subtotal": 2000.00,
+    "status": "open"
+  },
+  {
+    "po_id": "PO-2002",
+    "vendor_id": "VENDOR-07",
+    "vendor_name": "Global Parts Inc.",
+    "issue_date": "2024-03-10",
+    "currency": "USD",
+    "line_items": [
+      {
+        "line_no": 1,
+        "description": "Bolt Pack 500",
+        "quantity": 10,
+        "unit_price": 53.90,
+        "total": 539.00
+      }
+    ],
+    "subtotal": 539.00,
+    "status": "open"
+  }
+]
